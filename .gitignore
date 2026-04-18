@@ -1,0 +1,54 @@
+# Model weights
+gemma4_*/
+*.safetensors
+*.bin
+*.gguf
+llama_cuda/
+
+# Training outputs
+checkpoints/
+output/
+wandb/
+runs/
+
+# Dataset caches
+data/m3av/
+data/lpm/
+
+# Video / audio artifacts
+*.mp4
+*.avi
+*.mkv
+*.wav
+*.mp3
+!demo/*.mp4
+!demo/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+description.txt
